@@ -66,25 +66,40 @@ public class LightGenerator : MonoBehaviour
 		}
 
 		Vector3 startingPosition = position;
+        bool blocked = false;
 
 		Ray ray = new Ray(position, direction);
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit, maxStepDistance))
 		{
-			direction = Vector3.Reflect(direction, hit.normal);
-			position = hit.point;
-			
-			//if (hit.collider.gameObject.CompareTag(""))
-		}
-		else
-		{
-			position += direction * maxStepDistance;
-		}
+            if (hit.collider.gameObject.CompareTag("Flat_mirror"))
+            {
+                direction = Vector3.Reflect(direction, hit.normal);
+                position = hit.point;
+            }
+            else if (hit.collider.gameObject.CompareTag("Block"))
+            {
+                //position = hit.point;
+            }
+            else if (hit.collider.gameObject.CompareTag("Soorakh"))
+            {
+                position += direction * maxStepDistance;
+            }
+            else if (hit.collider.gameObject.CompareTag("Prism"))
+            {
+                LightGeneratorManager.instance.SetNextLightActive(hit.point);
+            }
+        }
+        else
+        {
+            position += direction * maxStepDistance;
+        }
 
-		Gizmos.color = Color.yellow;
+        Gizmos.color = Color.yellow;
 		//Gizmos.DrawLine(startingPosition, position);
 		_lineRenderer.SetPosition(maxReflectionCount - reflectionsRemaining, position);
 		
-		DrawPredictedReflectionPattern(position, direction, reflectionsRemaining - 1);
+        if (blocked == false)
+		    DrawPredictedReflectionPattern(position, direction, reflectionsRemaining - 1);
 	}
 }
