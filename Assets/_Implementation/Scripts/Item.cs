@@ -17,8 +17,43 @@ public class Item : MonoBehaviour
     public void Drop()
     {
         if (targetPlaceHolder != null)
-            transform.position = targetPlaceHolder.transform.position;
-        else
-            transform.position = new Vector3(-1000, -1000, 0);
+        {
+            if (targetPlaceHolder.tag == "Block" && tag != "Soorakh")
+            {
+                Inventory.instance.SetCrossPosition(transform.position);
+                transform.position = new Vector3(-1000, -1000, 0);
+            }
+        }
     }
+    //void OnTriggerEnter2D(Collider2D collider)
+    //{
+    //    if (targetPlaceHolder != null)
+    //        targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.white;
+
+    //    if (collider.gameObject.GetComponent<Item>() == null)
+    //        targetPlaceHolder = collider.gameObject;
+    //    else
+    //        targetPlaceHolder = null;
+
+    //    if (targetPlaceHolder != null)
+    //    {
+    //        targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.gray;
+    //        if (targetPlaceHolder.tag == "Block" && tag != "Soorakh")
+    //            targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.red;
+    //    }
+    //}
+    //void OnTriggerExit2D()
+    //{
+    //    if (targetPlaceHolder != null)
+    //        targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.white;
+
+    //    targetPlaceHolder = null;
+    //}
+    //public void Drop()
+    //{
+    //    if (targetPlaceHolder == null || (targetPlaceHolder.tag == "Block" && tag != "Soorakh"))
+    //        transform.position = new Vector3(-1000, -1000, 0);
+    //    else
+    //        transform.position = targetPlaceHolder.transform.position;
+    //}
 }
