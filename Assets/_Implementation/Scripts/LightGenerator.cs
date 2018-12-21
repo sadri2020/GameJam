@@ -27,42 +27,25 @@ public class LightGenerator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        _lineRenderer.startWidth = 0.45f;
-        _lineRenderer.endWidth = 0.45f;
+        _lineRenderer.positionCount = maxReflectionCount;
     }
 
     // Update is called once per frame
     void Update()
     {
+        _lineRenderer.SetPosition(0, this.transform.position);
+
+        DrawPredictedReflectionPattern(this.transform.position  + this.transform.forward * 0.75f,
+            this.transform.forward, maxReflectionCount-1);
     }
 
     protected void OnDrawGizmos()
     {
-        _lineRenderer.positionCount = maxReflectionCount;
-
-        //_lineRenderer.startColor = color;
-        //_lineRenderer.endColor = color;
-
-        //float alpha = 1.0f;
-        //Gradient gradient = new Gradient();
-        //gradient.SetKeys(
-        //	new GradientColorKey[] { new GradientColorKey(Color.green, 0.0f), new GradientColorKey(Color.red, 1.0f), new GradientColorKey(Color.red, 1.0f) },
-
-        //new GradientAlphaKey[] { new GradientAlphaKey(alpha, 0.0f), new GradientAlphaKey(alpha, 1.0f), new GradientAlphaKey(alpha, 1.0f)  }
-
-        //);
-        //_lineRenderer.colorGradient = gradient;
-
         //Handles.color = Color.red;
         //Handles.ArrowHandleCap(0, this.transform.position + this.transform.forward * 0.25f, this.transform.rotation,
         //    0.5f, EventType.Repaint);
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(this.transform.position, 0.25f);
-
-        _lineRenderer.SetPosition(0, this.transform.position);
-
-        DrawPredictedReflectionPattern(this.transform.position  + this.transform.forward * 0.75f,
-            this.transform.forward, maxReflectionCount-1);
     }
 
     private void DrawPredictedReflectionPattern(Vector3 position, Vector3 direction, int reflectionsRemaining)
