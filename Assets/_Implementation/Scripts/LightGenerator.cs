@@ -34,7 +34,7 @@ public class LightGenerator : MonoBehaviour
 		
 	}
 	
-	void OnDrawGizmos()
+	protected void OnDrawGizmos()
 	{
 		_lineRenderer.positionCount = maxReflectionCount;
 		
@@ -65,9 +65,6 @@ public class LightGenerator : MonoBehaviour
 			return;
 		}
 
-		Vector3 startingPosition = position;
-        bool blocked = false;
-
 		Ray ray = new Ray(position, direction);
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit, maxStepDistance))
@@ -79,7 +76,8 @@ public class LightGenerator : MonoBehaviour
             }
             else if (hit.collider.gameObject.CompareTag("Block"))
             {
-                //position = hit.point;
+	            DrawAllRemainedPositions(hit.point, reflectionsRemaining);
+	            return;
             }
             else if (hit.collider.gameObject.CompareTag("Soorakh"))
             {
@@ -87,7 +85,8 @@ public class LightGenerator : MonoBehaviour
             }
             else if (hit.collider.gameObject.CompareTag("Prism"))
             {
-                LightGeneratorManager.instance.SetNextLightActive(hit.point);
+	            hit.collider.GetComponent<Pyramid>().ActivePyramid();
+                //LightGeneratorManager.instance.SetNextLightActive(hit.point);
             }
         }
         else
@@ -98,8 +97,17 @@ public class LightGenerator : MonoBehaviour
         Gizmos.color = Color.yellow;
 		//Gizmos.DrawLine(startingPosition, position);
 		_lineRenderer.SetPosition(maxReflectionCount - reflectionsRemaining, position);
-		
-        if (blocked == false)
+
 		    DrawPredictedReflectionPattern(position, direction, reflectionsRemaining - 1);
+	}
+
+	protected void DrawAllRemainedPositions(Vector3 pos, int reflectionsRemaining)
+	{
+		if (reflectionsRemaining == 0)
+			return;
+		
+		_lineRenderer.SetPosition(maxReflectionCount - reflectionsRemaining, pos);
+
+		DrawAllRemainedPositions(pos, reflectionsRemaining - 1);
 	}
 }
