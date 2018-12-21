@@ -32,9 +32,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9f41397-2768-4171-9e83-e0dd21c4ca3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,17 +49,18 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="450" />
+          <entry key="cs" value="562" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="450" />
+          <entry key="C#" value="562" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -74,24 +76,29 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Mechanics/Scripts/LightGenerator.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="-392">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
-                <marker date="1545321058581" expanded="true" signature="6:97" ph="..." />
-                <marker date="1545321058581" expanded="true" signature="183:2327" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="362:387" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="436:515" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="570:579" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="602:1557" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="663:1163" ph="/* _lineRenderer.startColor = color; ... */" />
-                <marker date="1545321058581" expanded="true" signature="1667:2325" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="1704:1720" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="1875:2016" ph="{...}" />
-                <marker date="1545321058581" expanded="true" signature="2023:2075" ph="{...}" />
+                <marker date="1545351923099" expanded="false" signature="6:97" ph="..." />
+                <marker date="1545351923099" expanded="true" signature="183:3169" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="362:387" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="436:515" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="570:579" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="602:1557" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="663:1163" ph="/* _lineRenderer.startColor = color; ... */" />
+                <marker date="1545351923099" expanded="true" signature="1667:2906" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="1704:1720" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="1835:2562" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="1906:2040" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="2106:2227" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="2295:2380" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="2446:2552" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="2575:2648" ph="{...}" />
+                <marker date="1545351923099" expanded="true" signature="2977:3167" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/3b/33885610/LineRenderer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-588">
+            <state relative-caret-position="3664">
               <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
             </state>
           </provider>
@@ -112,13 +119,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Mechanics/Scripts/LightGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/3b/33885610/LineRenderer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Mechanics/Scripts/LightGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" />
       </list>
     </option>
   </component>
@@ -128,9 +136,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="196" />
-    <option name="y" value="-18" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="195" />
+    <option name="y" value="-19" />
     <option name="width" value="1400" />
     <option name="height" value="880" />
   </component>
@@ -143,10 +151,10 @@
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,11 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545311399803</updated>
       <workItem from="1545311425760" duration="7393000" />
+      <workItem from="1545350663060" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7393000" />
+    <option name="totallyTimeSpent" value="8627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,20 +218,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="TeamCity" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -230,12 +231,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="TeamCity" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,29 +267,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Mechanics/Scripts/LightGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F718FBF7-147E-4022-82FD-ACF37BDD8584/3b/33885610/LineRenderer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
+        <state relative-caret-position="3664">
           <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Mechanics/Scripts/LightGenerator.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="-392">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
-            <marker date="1545321058581" expanded="true" signature="6:97" ph="..." />
-            <marker date="1545321058581" expanded="true" signature="183:2327" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="362:387" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="436:515" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="570:579" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="602:1557" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="663:1163" ph="/* _lineRenderer.startColor = color; ... */" />
-            <marker date="1545321058581" expanded="true" signature="1667:2325" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="1704:1720" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="1875:2016" ph="{...}" />
-            <marker date="1545321058581" expanded="true" signature="2023:2075" ph="{...}" />
+            <marker date="1545351923099" expanded="false" signature="6:97" ph="..." />
+            <marker date="1545351923099" expanded="true" signature="183:3169" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="362:387" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="436:515" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="570:579" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="602:1557" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="663:1163" ph="/* _lineRenderer.startColor = color; ... */" />
+            <marker date="1545351923099" expanded="true" signature="1667:2906" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="1704:1720" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="1835:2562" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="1906:2040" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="2106:2227" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="2295:2380" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="2446:2552" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="2575:2648" ph="{...}" />
+            <marker date="1545351923099" expanded="true" signature="2977:3167" ph="{...}" />
           </folding>
         </state>
       </provider>
