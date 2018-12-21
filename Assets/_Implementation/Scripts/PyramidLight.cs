@@ -13,16 +13,16 @@ public class PyramidLight : LightGenerator
         set { isGenerate = value; }
     }
 
-    private void OnDrawGizmos()
+    private void Update()
     {
         if (isGenerate)
-            base.OnDrawGizmos();
+            base.Update();
 
         isGenerate = false;
 
         StartCoroutine(ClearLines());
     }
-
+    
     IEnumerator ClearLines()
     {
         yield return new WaitForSeconds(0.5f);

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="Back" size="1.000000 0.711111" />
+    <ImageTarget name="Board" size="1.000000 0.820018" />
+    <ImageTarget name="Mirror" size="1.000000 1.798646" />
+    <ImageTarget name="Whole" size="1.000000 1.798646" />
+    <ImageTarget name="Prism" size="1.000000 1.798646" />
   </Tracking>
 </QCARConfig>
