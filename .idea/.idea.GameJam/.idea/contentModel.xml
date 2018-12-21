@@ -13,6 +13,8 @@
             <e p="Item.cs" t="Include" />
             <e p="LightGenerator.cs" t="Include" />
             <e p="LightGeneratorManager.cs" t="Include" />
+            <e p="Pyramid.cs" t="Include" />
+            <e p="PyramidLight.cs" t="Include" />
           </e>
         </e>
         <e p="Common" t="Include">

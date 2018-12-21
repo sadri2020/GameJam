@@ -34,7 +34,7 @@ public class LightGenerator : MonoBehaviour
 		
 	}
 	
-	void OnDrawGizmos()
+	protected void OnDrawGizmos()
 	{
 		_lineRenderer.positionCount = maxReflectionCount;
 		
@@ -85,7 +85,8 @@ public class LightGenerator : MonoBehaviour
             }
             else if (hit.collider.gameObject.CompareTag("Prism"))
             {
-                LightGeneratorManager.instance.SetNextLightActive(hit.point);
+	            hit.collider.GetComponent<Pyramid>().ActivePyramid();
+                //LightGeneratorManager.instance.SetNextLightActive(hit.point);
             }
         }
         else
@@ -100,7 +101,7 @@ public class LightGenerator : MonoBehaviour
 		    DrawPredictedReflectionPattern(position, direction, reflectionsRemaining - 1);
 	}
 
-	void DrawAllRemainedPositions(Vector3 pos, int reflectionsRemaining)
+	protected void DrawAllRemainedPositions(Vector3 pos, int reflectionsRemaining)
 	{
 		if (reflectionsRemaining == 0)
 			return;
