@@ -19,7 +19,7 @@ public class Inventory : MonoBehaviour
         {
             if (currentItemPickUp != null)
             {
-                currentItemPickUp.transform.position = new Vector3(-1000, -1000, 0);
+                currentItemPickUp.GetComponent<Item>().Drop();
                 currentItemPickUp = null;
             }
         }
@@ -27,7 +27,9 @@ public class Inventory : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             if (currentItemPickUp != null)
+            {
                 currentItemPickUp.transform.position = Camera.main.ScreenToWorldPoint(mousePos);
+            }
         }
     }
     public void PickUpFlatMirror()
