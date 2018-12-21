@@ -6,6 +6,10 @@ public class Item : MonoBehaviour
 {
     private GameObject targetPlaceHolder;
 
+    void OnMouseDrag()
+    {
+        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+    }
     void OnTriggerEnter2D(Collider2D collider)
     {
         targetPlaceHolder = collider.gameObject;
@@ -25,7 +29,7 @@ public class Item : MonoBehaviour
             }
         }
     }
-    //void OnTriggerEnter2D(Collider2D collider)
+    //void OnTriggerEnter(Collider collider)
     //{
     //    if (targetPlaceHolder != null)
     //        targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.white;
@@ -42,7 +46,7 @@ public class Item : MonoBehaviour
     //            targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.red;
     //    }
     //}
-    //void OnTriggerExit2D()
+    //void OnTriggerExit()
     //{
     //    if (targetPlaceHolder != null)
     //        targetPlaceHolder.GetComponent<SpriteRenderer>().color = Color.white;

@@ -8,6 +8,7 @@ TagManager:
   - Flat_mirror
   - Soorakh
   - Prism
+  - Goal
   layers:
   - Default
   - TransparentFX

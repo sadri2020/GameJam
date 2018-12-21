@@ -7,12 +7,17 @@ public class Inventory : MonoBehaviour
     public static Inventory instance;
 
     [Header("Items")]
+    //public int maxOfItem;
     public GameObject flatMirror;
     public GameObject soorakh;
     public GameObject prism;
 
     [Header("Warns")]
     public GameObject cross;
+
+    //private GameObject[] flatMirrors;
+    //private GameObject[] soorakhs;
+    //private GameObject[] prisms;
 
     private GameObject currentItemPickUp;
     private Vector3 mousePos;
@@ -21,6 +26,26 @@ public class Inventory : MonoBehaviour
     {
         if (instance == null)
             instance = this;
+    }
+    void Start()
+    {
+        //flatMirrors = new GameObject[maxOfItem];
+        //for(int i = 0; i<maxOfItem; i++)
+        //{
+        //    flatMirrors[i] = Instantiate(flatMirror);
+        //}
+
+        //soorakhs = new GameObject[maxOfItem];
+        //for (int i = 0; i < maxOfItem; i++)
+        //{
+        //    soorakhs[i] = Instantiate(soorakh);
+        //}
+
+        //prisms = new GameObject[maxOfItem];
+        //for (int i = 0; i < maxOfItem; i++)
+        //{
+        //    prisms[i] = Instantiate(prism);
+        //}
     }
     void Update()
     {
@@ -45,14 +70,17 @@ public class Inventory : MonoBehaviour
     }
     public void PickUpFlatMirror()
     {
-        currentItemPickUp = flatMirror;
+        var clone = Instantiate(flatMirror);
+        currentItemPickUp = clone;
     }
     public void PickUpSoorakh()
     {
+        //var clone = Instantiate(soorakh);
         currentItemPickUp = soorakh;
     }
     public void PickUpPrism()
     {
+        //var clone = Instantiate(prism);
         currentItemPickUp = prism;
     }
     public void SetCrossPosition(Vector3 position)
