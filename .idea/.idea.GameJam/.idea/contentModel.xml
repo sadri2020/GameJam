@@ -23,6 +23,7 @@
             <e p="TrackableSettingsEditor.cs" t="Include" />
             <e p="VersionChecker" t="Include">
               <e p="VersionChecker.cs" t="Include" />
+              <e p="VuforiaVersionCheckerScripts.asmdef" t="Include" />
             </e>
           </e>
           <e p="Scripts" t="Include">
@@ -185,11 +186,13 @@
           <e p="Editor" t="Include">
             <e p="Scripts" t="Include">
               <e p="OpenSourceInitializer.cs" t="Include" />
+              <e p="VuforiaEditorScripts.asmdef" t="Include" />
             </e>
           </e>
           <e p="Scripts" t="Include">
             <e p="DefaultInitializationErrorHandler.cs" t="Include" />
             <e p="DefaultTrackableEventHandler.cs" t="Include" />
+            <e p="VuforiaScripts.asmdef" t="Include" />
           </e>
           <e p="Shaders" t="Include">
             <e p="BrightTexture.shader" t="Include" />

@@ -6,19 +6,24 @@ using UnityEditor;
 [RequireComponent(typeof(LineRenderer))]
 public class LightGenerator : MonoBehaviour
 {
-    public Degree degree;
     public LineRenderer _lineRenderer;
 
     public int maxReflectionCount = 5;
     public float maxStepDistance = 200;
 
-    public enum Degree
+    public LightColor lightColor = LightColor.WHITE;
+    
+    public enum LightColor
     {
-        _0,
-        _45,
-        _90
+        WHITE,
+        RED,
+        DARK_BLUE,
+        LIGHT_BLUE,
+        PURPLE,
+        YELLOW,
+        ORANGE,
+        GREEN,
     }
-
     // Use this for initialization
     void Start()
     {

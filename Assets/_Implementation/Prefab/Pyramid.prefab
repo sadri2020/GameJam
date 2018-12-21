@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114770768288971208}
   - component: {fileID: 120314618415072098}
   m_Layer: 0
-  m_Name: GameObject (3)
+  m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114372107900152286}
   - component: {fileID: 120413824193513146}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 114800147743867488}
   - component: {fileID: 120457851426691974}
   m_Layer: 0
-  m_Name: GameObject (6)
+  m_Name: Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 114378872588102532}
   - component: {fileID: 120045886626809370}
   m_Layer: 0
-  m_Name: GameObject (4)
+  m_Name: Light_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 114685473306962262}
   - component: {fileID: 120039858033737306}
   m_Layer: 0
-  m_Name: GameObject (2)
+  m_Name: Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 114657831373408002}
   - component: {fileID: 120329727376963126}
   m_Layer: 0
-  m_Name: GameObject (5)
+  m_Name: Dark_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 114584650052575606}
   - component: {fileID: 120175135356496044}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,10 +325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120413824193513146}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 6
 --- !u!114 &114378872588102532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -340,10 +340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120045886626809370}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 3
 --- !u!114 &114584650052575606
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -355,10 +355,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120175135356496044}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 1
 --- !u!114 &114620244922504362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -389,10 +389,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120329727376963126}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 2
 --- !u!114 &114685473306962262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -404,10 +404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120039858033737306}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 5
 --- !u!114 &114770768288971208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -419,10 +419,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120314618415072098}
   maxReflectionCount: 20
   maxStepDistance: 6
+  lightColor: 7
 --- !u!114 &114800147743867488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -434,10 +434,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4625be1f036705c46937f506242e2a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degree: 0
   _lineRenderer: {fileID: 120457851426691974}
   maxReflectionCount: 30
   maxStepDistance: 6
+  lightColor: 4
 --- !u!120 &120039858033737306
 LineRenderer:
   m_ObjectHideFlags: 1

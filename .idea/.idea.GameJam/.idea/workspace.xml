@@ -32,9 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9f41397-2768-4171-9e83-e0dd21c4ca3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Implementation/Textures/Light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Implementation/Textures/Light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Implementation/Prefab/Pyramid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Implementation/Prefab/Pyramid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="961" />
+          <entry key="cs" value="1086" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="961" />
+          <entry key="C#" value="1086" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -80,25 +82,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="242">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
-                <marker date="1545376446023" expanded="false" signature="6:97" ph="..." />
-                <marker date="1545376446023" expanded="true" signature="183:3699" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="354:403" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="456:550" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="608:620" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="655:1791" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="729:1275" ph="/* _lineRenderer.startColor = color; ... */" />
-                <marker date="1545376446023" expanded="true" signature="1903:3392" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="1948:1988" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="2121:3031" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="2198:2332" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="2398:2525" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="2593:2678" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="2744:3021" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="3044:3117" ph="{...}" />
-                <marker date="1545376446023" expanded="true" signature="3476:3697" ph="{...}" />
+                <marker date="1545381006589" expanded="false" signature="6:97" ph="..." />
+                <marker date="1545381006589" expanded="true" signature="183:3827" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="390:532" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="584:678" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="736:748" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="783:1919" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="857:1403" ph="/* _lineRenderer.startColor = color; ... */" />
+                <marker date="1545381006589" expanded="true" signature="2031:3520" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2076:2116" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2249:3159" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2326:2460" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2526:2653" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2721:2806" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="2872:3149" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="3172:3245" ph="{...}" />
+                <marker date="1545381006589" expanded="true" signature="3604:3825" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/PyramidLight.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <marker date="1545354209357" expanded="false" signature="6:121" ph="..." />
                 <marker date="1545354209357" expanded="true" signature="165:678" ph="{...}" />
@@ -163,7 +165,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="195" />
     <option name="y" value="-20" />
     <option name="width" value="1400" />
@@ -229,12 +231,12 @@
       <updated>1545311399803</updated>
       <workItem from="1545311425760" duration="7393000" />
       <workItem from="1545350663060" duration="3627000" />
-      <workItem from="1545372050683" duration="3920000" />
+      <workItem from="1545372050683" duration="4770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14940000" />
+    <option name="totallyTimeSpent" value="15790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,7 +248,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12214765" />
@@ -316,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/PyramidLight.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <marker date="1545354209357" expanded="false" signature="6:121" ph="..." />
             <marker date="1545354209357" expanded="true" signature="165:678" ph="{...}" />
@@ -342,25 +344,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Implementation/Scripts/LightGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="242">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
-            <marker date="1545376446023" expanded="false" signature="6:97" ph="..." />
-            <marker date="1545376446023" expanded="true" signature="183:3699" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="354:403" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="456:550" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="608:620" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="655:1791" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="729:1275" ph="/* _lineRenderer.startColor = color; ... */" />
-            <marker date="1545376446023" expanded="true" signature="1903:3392" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="1948:1988" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="2121:3031" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="2198:2332" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="2398:2525" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="2593:2678" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="2744:3021" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="3044:3117" ph="{...}" />
-            <marker date="1545376446023" expanded="true" signature="3476:3697" ph="{...}" />
+            <marker date="1545381006589" expanded="false" signature="6:97" ph="..." />
+            <marker date="1545381006589" expanded="true" signature="183:3827" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="390:532" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="584:678" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="736:748" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="783:1919" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="857:1403" ph="/* _lineRenderer.startColor = color; ... */" />
+            <marker date="1545381006589" expanded="true" signature="2031:3520" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2076:2116" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2249:3159" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2326:2460" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2526:2653" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2721:2806" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="2872:3149" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="3172:3245" ph="{...}" />
+            <marker date="1545381006589" expanded="true" signature="3604:3825" ph="{...}" />
           </folding>
         </state>
       </provider>
