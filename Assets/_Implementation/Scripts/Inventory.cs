@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public GameObject FlatMirror;
-    public GameObject Soorakh;
-    public GameObject Prism;
+    public static Inventory instance;
+
+    [Header("Items")]
+    public GameObject flatMirror;
+    public GameObject soorakh;
+    public GameObject prism;
+
+    [Header("Warns")]
+    public GameObject cross;
 
     private GameObject currentItemPickUp;
     private Vector3 mousePos;
 
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+    }
     void Update()
     {
         mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10);
@@ -34,14 +45,24 @@ public class Inventory : MonoBehaviour
     }
     public void PickUpFlatMirror()
     {
-        currentItemPickUp = FlatMirror;
+        currentItemPickUp = flatMirror;
     }
     public void PickUpSoorakh()
     {
-        currentItemPickUp = Soorakh;
+        currentItemPickUp = soorakh;
     }
     public void PickUpPrism()
     {
-        currentItemPickUp = Prism;
+        currentItemPickUp = prism;
+    }
+    public void SetCrossPosition(Vector3 position)
+    {
+        cross.transform.position = position;
+        StartCoroutine(CrossFade());
+    }
+    IEnumerator CrossFade()
+    {
+        yield return new WaitForSeconds(1);
+        cross.transform.position = new Vector3(-1000, -1000, 0);
     }
 }
